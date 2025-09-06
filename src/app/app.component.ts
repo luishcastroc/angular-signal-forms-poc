@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
-import {
-  RouterLink,
-  RouterLinkActive,
-  RouterOutlet,
-} from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -61,6 +57,13 @@ import {
             class="nav-link"
           >
             Form Arrays
+          </a>
+          <a
+            routerLink="/custom-controls"
+            routerLinkActive="active"
+            class="nav-link"
+          >
+            Custom Controls
           </a>
         </nav>
       </header>
